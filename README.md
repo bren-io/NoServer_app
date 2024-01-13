@@ -21,7 +21,7 @@ To start, walk through severless (sls) setup by calling. See their documentation
 
 ```sls```
 
-Then in your project directory, clone this repo with a name, create a virtual environment, and install the packages using pip
+Simply download the .zip of this repo! Then follow githubs setup for creating a new repository. If you are developing remotely, you can invoke curl commands to download the .zip or follow these steps I provided below
 
 ```
 git clone --depth 1 <HTTP/SSH/CLI> <name>		# For me I like to use src as the name since I usually name the sls project the application name
