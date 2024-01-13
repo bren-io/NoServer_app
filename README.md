@@ -21,7 +21,7 @@ To start, walk through severless (sls) setup by calling
 
 ```sls```
 
-See their documentation for developing in their framework
+See their documentation for developing in their framework OR old_README.md contains instructions
 
 Then in your project directory, create a virtual environment and install the packages using pip
 
