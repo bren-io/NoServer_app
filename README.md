@@ -28,7 +28,6 @@ Then in your project directory, create a virtual environment and install the pac
 ```
 python -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
 ```
 
 Note that individual lambda functions will have their own requirements.txt and serverless should handle this
