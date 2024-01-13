@@ -23,12 +23,11 @@ To start, walk through severless (sls) setup by calling
 
 See their documentation for developing in their framework OR old_README.md contains instructions
 
-Then in your project directory, clone this repo, move contents to the root sls directory, create a virtual environment, and install the packages using pip
+Then in your project directory, clone this repo with a name, create a virtual environment, and install the packages using pip
 
 NOTE: Be sure to rename the auto generated files that sls created, such that there are no conflicting names
 ```
-git clone <HTTP/SSH/CLI>
-mv <repo-dir>/* <repo-dir>/.* ..
+git clone <HTTP/SSH/CLI> <name>		# For me I like to use src as the name since I usually name the sls project the application name
 python -m venv venv
 source venv/bin/activate
 ```
