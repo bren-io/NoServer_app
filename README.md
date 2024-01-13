@@ -17,15 +17,12 @@ Note that serverless can be installed using node.js and npm. I choose to install
 Also don't forget to setup your git and aws credentials, you can see their documentation for the location of the config files.
 As well insure that serverless and aws are configured in your shell path environment
 
-To start, walk through severless (sls) setup by calling
+To start, walk through severless (sls) setup by calling. See their documentation for developing in their framework OR old_README.md contains instructions
 
 ```sls```
 
-See their documentation for developing in their framework OR old_README.md contains instructions
-
 Then in your project directory, clone this repo with a name, create a virtual environment, and install the packages using pip
 
-NOTE: Be sure to rename the auto generated files that sls created, such that there are no conflicting names
 ```
 git clone <HTTP/SSH/CLI> <name>		# For me I like to use src as the name since I usually name the sls project the application name
 python -m venv venv
