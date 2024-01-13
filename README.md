@@ -25,6 +25,7 @@ See their documentation for developing in their framework OR old_README.md conta
 
 Then in your project directory, clone this repo, move contents to the root sls directory, create a virtual environment, and install the packages using pip
 
+NOTE: Be sure to rename the auto generated files that sls created, such that there are no conflicting names
 ```
 git clone <HTTP/SSH/CLI>
 mv <repo-dir>/* <repo-dir>/.* ..
