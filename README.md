@@ -24,17 +24,17 @@ To start, walk through severless (sls) setup by calling. See their documentation
 Then in your project directory, clone this repo with a name, create a virtual environment, and install the packages using pip
 
 ```
-git clone <HTTP/SSH/CLI> <name>		# For me I like to use src as the name since I usually name the sls project the application name
+git clone --depth 1 <HTTP/SSH/CLI> <name>		# For me I like to use src as the name since I usually name the sls project the application name
 cd <name>
-git remote remove origin		# Dereferences this repo because you should have your own!
-git init   	  			# Follow githubs steps when creating a repo through the web
-git add .				# or use these steps as I included
-git commit -m "first commit"
-git remote add origin <your_repo_url>
-git branch -M main
-git push -u origin main
-python -m venv venv
-source venv/bin/activate
+git remote remove origin		# Dereferences this repo because you should have your own! See github instructions for setting up a repo or...
+git init   	  			# initalize .git directory
+git add .				# add all your files to staging
+git commit -m "first commit"		# document your commit
+git remote add origin <your_repo_url>	# add your repo to remote
+git branch -M main    			# checkout or make main branch
+git push -u origin main			# push your code!
+python -m venv venv			# create your venv
+source venv/bin/activate		# activate before installing dependencies!
 ```
 
 Note that individual lambda functions will have their own requirements.txt and serverless should handle this
