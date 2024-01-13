@@ -26,13 +26,7 @@ Then in your project directory, clone this repo with a name, create a virtual en
 ```
 git clone --depth 1 <HTTP/SSH/CLI> <name>		# For me I like to use src as the name since I usually name the sls project the application name
 cd <name>
-git remote remove origin		# Dereferences this repo because you should have your own! See github instructions for setting up a repo or...
-git init   	  			# initalize .git directory
-git add .				# add all your files to staging
-git commit -m "first commit"		# document your commit
-git remote add origin <your_repo_url>	# add your repo to remote
-git branch -M main    			# checkout or make main branch
-git push -u origin main			# push your code!
+rm -rf .git				# remember this is a template for you! Follow githubs steps when creating a new repository
 python -m venv venv			# create your venv
 source venv/bin/activate		# activate before installing dependencies!
 ```
