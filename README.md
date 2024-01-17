@@ -17,15 +17,16 @@ Note that serverless can be installed using node.js and npm. I choose to install
 Also don't forget to setup your git and aws credentials, you can see their documentation for the location of the config files.
 As well insure that serverless and aws are configured in your shell path environment
 
-To start, walk through severless (sls) setup by calling. See their documentation for developing in their framework OR old_README.md contains instructions
+To start, walk through severless (sls) setup by calling. See their documentation for developing in their framework OR when you choose a template sls will create a README.md and serverless.yml files.
 
 ```sls```
 
-Simply download the .zip of this repo! Then follow githubs setup for creating a new repository. If you are developing remotely, you can invoke curl commands to download the .zip or follow these steps I provided below
+Simply download the .zip of this repo and unzip it into your sls application. Then follow githubs setup for creating a new repository. If you are developing remotely, you can invoke curl commands to download the .zip or follow these steps I provided below
 
 ```
-git clone --depth 1 <HTTP/SSH/CLI> <name>		# For me I like to use src as the name since I usually name the sls project the application name
-cd <name>
+cd <sls app>
+git clone --depth 1 <HTTP/SSH/CLI> <repo>		# For me I like to use src as the name since I usually name the sls project the application name
+cd <repo>
 rm -rf .git				# remember this is a template for you! Follow githubs steps when creating a new repository
 python -m venv venv			# create your venv
 source venv/bin/activate		# activate before installing dependencies!
